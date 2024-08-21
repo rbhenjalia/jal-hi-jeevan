@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+ >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/myScrollView"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/asd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEWS"
+                android:textStyle="bold"
+
+                android:textSize="50dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:onClick="nam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="1. Namami Gange Programme" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:onClick="t1"
+                android:layout_height="wrap_content"
+                android:text="2. The National Ganga River Basin Project" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textSize="30dp"
+                android:onClick="t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Swaach Bharat Abhiyaan" />
+
+            <TextView
+                android:textSize="30dp"
+                android:onClick="t3"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Ganga Swachhta Sankalp Divas" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:onClick="t4"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. JAL KRANTI ABHIYAN" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="t5"
+                android:text="6. INDIA WATER WEEK" />
+
+            <TextView
+                android:textSize="30dp"
+                android:onClick="t6"
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Narendra Modi’s $87 billion river-linking project set to take off as floods hit" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Name">" নাম"</string>
+    <string name="PhoneNumber">" ফোন নম্বর"</string>
+    <string name="SelectCategory">" বিভাগ নির্বাচন করুন"</string>
+    <string name="Description">বিবরণ:</string>
+    <string name="Suggestion">" প্রস্তাবনা"</string>
+    <string name="Next">" পরবর্তী"</string>
+    <string name="YourSuggestion">" তোমার পরামর্শ"</string>
+    <string name="FileAComplaint">একটি অভিযোগ দায়ের</string>
+    <string name="Submit">জমা দিন</string>
+    <string name="Skip">লাফালাফি করা</string>
+    <string name="ChooseLang">ভাষা নির্বাচন করুন</string>
+    <string name="WaterBodyType">জল শরীরের প্রকার:</string>
+    <string name="EnterOTP">OTP লিখুন</string>
+    <string name="EnterYourPhone">" আপনার মোবাইল নাম্বার প্রবেশ করুন"</string>
+    <string name="Login">" লগইন "</string>
+    <string name="Register">" নিবন্ধন"</string>
+    <string name="Encroachment">" অভিযান"</string>
+    <string name="Industrial">" শিল্প"</string>
+    <string name="HumanWaste">" মানব বর্জ্য"</string>
+    <string name="AnimalDeadBodies">প্রাণী মৃত সংস্থা</string>
+    <string name="Sewage">" ড্রেনের ময়লা"</string>
+    <string name="Plastic">প্লাস্টিক</string>
+    <string name="WaterScarcity">পানি ঘাটতি</string>
+    <string name="Other">অন্যান্য</string>
+    <string name="River">" নদী"</string>
+    <string name="Lake">হ্রদ</string>
+    <string name="Pond">পুকুর</string>
+    <string name="Beach">সৈকত</string>
+    <string name="Canal">খাল</string>
+    <string name="Well">" ভাল"</string>
+    <string name="Settings">সেটিংস</string>
+    <string name="welcomescreen" translatable="false">হোম পর্দায় স্বাগতম</string>
+    <string name="start" translatable="false">বুঝেছি</string>
+    <string name="skip" translatable="false">এড়িয়</string>
+    <string name="next" translatable="false">পরবর্তী</string>
+    <string name="pc" translatable="false">জনগণের অভিযোগ</string>
+    <string name="yc" translatable="false">আপনার অভিযোগগুলি</string>
+    <string name="Cancel">বাতিল</string>
+    <string name="SandMining">স্যান্ড মাইনিং</string>
+    <string name="UnsafeEmbankment">অনিরাপদ বাঁধ</string>
+    <string name="Ganga">"গঙ্গা "</string>
+    <string name="Select">নির্বাচন করা</string>
+    <string name="Location">অবস্থান:</string>
+    <string name="Category">বিভাগ:</string>
+    <string name="Thankyou">ধন্যবাদ!</string>
+    <string name="YourComplaintHasBeenRegistered">আপনার অভিযোগ নিবন্ধিত হয়েছে</string>
+    <string name="ClickHereToSignIn">সাইন ইন করতে এখানে ক্লিক করুন</string>
+    <string name="DescribeYourComplaint">আপনার অভিযোগ বর্ণনা করুন</string>
+    <string name="SelectAnyOne">2. কোন এক নির্বাচন করুন</string>
+    <string name="ClickHereToComplaint">1. অভিযোগ করার জন্য এখানে ক্লিক করুন</string>
+    <string name="Support">সমর্থন</string>
+    <string name="TotalSupports">মোট সমর্থন:</string>
+</resources>

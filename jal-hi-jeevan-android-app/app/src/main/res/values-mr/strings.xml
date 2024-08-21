@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PhoneNumber">फोन नंबर</string>
+    <string name="Name">नाव</string>
+    <string name="SelectCategory">श्रेणी निवडा</string>
+    <string name="Description">वर्णन:</string>
+    <string name="Suggestion">सूचना</string>
+    <string name="Next">पुढे</string>
+    <string name="YourSuggestion">" आपले सुचना"</string>
+    <string name="FileAComplaint">" तक्रार दाखल करा"</string>
+    <string name="Submit">सबमिट करा</string>
+    <string name="Skip">वगळा</string>
+    <string name="ChooseLang">भाषा निवडा</string>
+    <string name="WaterBodyType">पाणी शरीर प्रकार:</string>
+    <string name="EnterOTP">OTP प्रविष्ट करा</string>
+    <string name="EnterYourPhone">तुमचा भ्रमणध्वनी क्रमांक टाका</string>
+    <string name="Login">" लॉग इन "</string>
+    <string name="Register">नोंदणी करा</string>
+    <string name="Encroachment">अतिक्रमण</string>
+    <string name="Industrial">" औद्योगिक"</string>
+    <string name="HumanWaste">" मानवी कचरा"</string>
+    <string name="AnimalDeadBodies">प्राणी मृत संस्था</string>
+    <string name="Sewage">मलप्रवाह</string>
+    <string name="Plastic">प्लॅस्टिक</string>
+    <string name="WaterScarcity">" पाणी टंचाई"</string>
+    <string name="Other">इतर</string>
+    <string name="River">" नदी"</string>
+    <string name="Lake">लेक</string>
+    <string name="Pond">तलाव</string>
+    <string name="Beach">समुद्रकिनारा</string>
+    <string name="Canal">कालवा</string>
+    <string name="Well">" विहीर"</string>
+    <string name="Settings">सेटिंग्ज</string>
+    <string name="welcomescreen">मुख्यपृष्ठ स्क्रीनवर स्वागत आहे</string>
+    <string name="start" translatable="false">समजले</string>
+    <string name="skip" translatable="false">वगळा</string>
+    <string name="next" translatable="false">पुढे</string>
+    <string name="pc" translatable="false">लोकांच्या तक्रारी</string>
+    <string name="yc" translatable="false">आपल्या तक्रारी</string>
+    <string name="Cancel">रद्द करा</string>
+    <string name="SandMining">वाळू मायनिंग</string>
+    <string name="UnsafeEmbankment">असुरक्षित तटबंदी</string>
+    <string name="Ganga">"गंगा "</string>
+    <string name="Select">निवडा</string>
+    <string name="Location">स्थान:</string>
+    <string name="Category">वर्ग:</string>
+    <string name="Thankyou">धन्यवाद!</string>
+    <string name="YourComplaintHasBeenRegistered">आपली तक्रार नोंदणी केली गेली आहे</string>
+    <string name="ClickHereToSignIn">साइन इन करण्यासाठी येथे क्लिक करा</string>
+    <string name="DescribeYourComplaint">आपल्या तक्रारीचे वर्णन करा</string>
+    <string name="SelectAnyOne">2. कुठल्याही एक निवडा</string>
+    <string name="ClickHereToComplaint">1.तक्रार करण्यासाठी येथे क्लिक करा</string>
+    <string name="Support">समर्थन</string>
+    <string name="TotalSupports">एकूण समर्थन:</string>
+</resources>

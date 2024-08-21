@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimaryDark"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <-<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category:" />-->
+            <!--<Spinner
+                android:id="@+id/category_spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proximity:" />
+            <Spinner
+                android:id="@+id/location_spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+            <Spinner
+                android:id="@+id/time_spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />-->
+            <!--<Button
+                android:id="@+id/Load"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

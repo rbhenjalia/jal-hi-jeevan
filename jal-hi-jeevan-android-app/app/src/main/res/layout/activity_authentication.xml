@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sih.practice.teststs.Authentication">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Google Identity"
+        android:textColor="#0d0000"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SignIn"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="18dp"
+        android:text="Android Sign in with Google"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignEnd="@+id/SignIn"
+        android:layout_marginBottom="31dp"
+        app:srcCompat="@drawable/img3" />
+    <com.google.android.gms.common.SignInButton
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignIn"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.7"
+        android:text="जल ही जीवन"
+        android:textSize="25dp" />
+
+</RelativeLayout>

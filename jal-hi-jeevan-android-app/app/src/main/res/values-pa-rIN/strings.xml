@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PhoneNumber">" ਫੋਨ ਨੰਬਰ"</string>
+    <string name="Name">ਨਾਮ</string>
+    <string name="SelectCategory">ਸ਼੍ਰੇਣੀ ਚੁਣੋ</string>
+    <string name="Description">" ਵਰਣਨ:"</string>
+    <string name="Suggestion">" ਸੁਝਾਅ"</string>
+    <string name="Next">" ਅਗਲਾ"</string>
+    <string name="YourSuggestion">" ਤੁਹਾਡਾ ਸੁਝਾਅ"</string>
+    <string name="FileAComplaint">" ਫਾਈਲ ਅ ਸ਼ਿਕਾਇਤ"</string>
+    <string name="Submit">" ਜਮ੍ਹਾਂ ਕਰੋ"</string>
+    <string name="Skip">ਛੱਡੋ</string>
+    <string name="ChooseLang">" ਭਾਸ਼ਾ ਚੁਣੋ"</string>
+    <string name="WaterBodyType">" ਜਲ ਦੇ ਸਰੀਰ ਦੀ ਕਿਸਮ:"</string>
+    <string name="EnterOTP">OTP ਦਰਜ ਕਰੋ</string>
+    <string name="EnterYourPhone">" ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ"</string>
+    <string name="Login">" ਲਾਗਿਨ "</string>
+    <string name="Register">" ਰਜਿਸਟਰ"</string>
+    <string name="Encroachment">ਅਚਨਚੇਤੀ</string>
+    <string name="Industrial">" ਉਦਯੋਗਿਕ"</string>
+    <string name="HumanWaste">" ਮਨੁੱਖੀ ਵੇਸਟ"</string>
+    <string name="AnimalDeadBodies">ਐਨੀਮਲ ਡੈੱਡ ਬਾਡੀਜ਼</string>
+    <string name="Sewage">" ਸੀਵਰੇਜ"</string>
+    <string name="Plastic">ਪਲਾਸਟਿਕ</string>
+    <string name="WaterScarcity">" ਪਾਣੀ ਦੀ ਕਮੀ"</string>
+    <string name="Other">" ਹੋਰ"</string>
+    <string name="River">" ਨਦੀ"</string>
+    <string name="Lake">" ਝੀਲ"</string>
+    <string name="Pond">ਤਲਾਅ</string>
+    <string name="Beach">" ਬੀਚ"</string>
+    <string name="Canal">" ਨਹਿਰ"</string>
+    <string name="Well">ਠੀਕ ਹੈ</string>
+    <string name="Settings">" ਸੈਟਿੰਗਾਂ"</string>
+    <string name="welcomescreen">ਹੋਮ ਸਕ੍ਰੀਨ ਤੇ ਸੁਆਗਤ ਹੈ</string>
+    <string name="start" translatable="false">ਮਿਲ ਗਿਆ</string>
+    <string name="skip" translatable="false">ਛੱਡੋ</string>
+    <string name="next" translatable="false">ਅਗਲਾ</string>
+    <string name="pc" translatable="false">ਲੋਕਾਂ ਦੀਆਂ ਸ਼ਿਕਾਇਤਾਂ</string>
+    <string name="yc" translatable="false">ਤੁਹਾਡੀਆਂ ਸ਼ਿਕਾਇਤਾਂ</string>
+    <string name="Cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="SandMining">ਰੇਤ ਮਾਈਨਿੰਗ</string>
+    <string name="UnsafeEmbankment">ਅਸੁਰੱਖਿਅਤ ਬੰਨ੍ਹ</string>
+    <string name="Ganga">"ਗੰਗਾ "</string>
+    <string name="Select">ਚੁਣੋ</string>
+    <string name="Location">ਸਥਾਨ:</string>
+    <string name="Category">ਸ਼੍ਰੇਣੀ:</string>
+    <string name="Thankyou">ਤੁਹਾਡਾ ਧੰਨਵਾਦ!</string>
+    <string name="YourComplaintHasBeenRegistered">ਤੁਹਾਡੀ ਸ਼ਿਕਾਇਤ ਰਜਿਸਟਰ ਹੋਈ ਹੈ</string>
+    <string name="ClickHereToSignIn">ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <string name="DescribeYourComplaint">ਆਪਣੀ ਸ਼ਿਕਾਇਤ ਦਾ ਵਰਣਨ ਕਰੋ</string>
+    <string name="SelectAnyOne">2. ਕੋਈ ਵੀ ਚੁਣੋ</string>
+    <string name="ClickHereToComplaint">1. ਸ਼ਿਕਾਇਤ ਕਰਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <string name="Support">ਸਹਿਯੋਗ</string>
+    <string name="TotalSupports">ਕੁੱਲ ਸਹਾਇਤਾ:</string>
+</resources>

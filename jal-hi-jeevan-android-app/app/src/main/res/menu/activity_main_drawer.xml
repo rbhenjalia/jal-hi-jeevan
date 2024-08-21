@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/lingo"
+            android:title="Language" />
+        <item
+            android:id="@+id/tut"
+            android:title="Tutorial" />
+        <item
+            android:id="@+id/news"
+            android:title="News" />
+            <item
+                android:id="@+id/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/CUs"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/AUs"
+                android:title="About Us" />
+            <item
+            android:id="@+id/ovr"
+            android:title="Overview Report" />
+
+            <item
+                android:id="@+id/lgt"
+                android:title="Log Out" />
+    </group>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Name">"ନାମେ "</string>
+    <string name="PhoneNumber">"ଫୋନେ ନୁଁମ୍ବର "</string>
+    <string name="SelectCategory">"ସେଲେସତ କ୍ୟାଟେଗୋରୀ "</string>
+    <string name="Description">"ଦେଶକରିପସନ: "</string>
+    <string name="Suggestion">ସୂଜଗେସସନ</string>
+    <string name="Next">ନେକ୍ସଟ</string>
+    <string name="YourSuggestion">ୟୌର ସୂଜଗେସସନ</string>
+    <string name="FileAComplaint">"ଫାଇଲେ ଏ କମ୍ପ୍ଲିଣ୍ତ "</string>
+    <string name="Submit">ସୁବିମ୍ୱିତ</string>
+    <string name="Skip">ସକିପ</string>
+    <string name="ChooseLang">"ଚୂସେ ଲଙ୍ଗୁଆଗେ "</string>
+    <string name="WaterBodyType">"ୱାଟର ବୋଡି ଟିପିଏ: "</string>
+    <string name="EnterOTP">"ଏଣ୍ଟେର ଓଟପ "</string>
+    <string name="EnterYourPhone">ଏଣ୍ଟେର ୟୌର ମୋବିଲେ ନୁଁମ୍ବର</string>
+    <string name="Login">ଲଗିଂ</string>
+    <string name="Register">ରେଜିଷ୍ଟ୍ର</string>
+    <string name="Encroachment">ଇଂଚରାଚମେଣ୍ଟ</string>
+    <string name="Industrial">ଇଣ୍ଡଷ୍ଟ୍ରିଆଲ</string>
+    <string name="HumanWaste">"ହୁମାନ ଵସ୍ତୁ "</string>
+    <string name="AnimalDeadBodies">"ଅନିମଲ ଦେଡ ବୋଡ଼ିଏସ "</string>
+    <string name="Sewage">ସେବାଜେ</string>
+    <string name="Plastic">ପ୍ଲାଷ୍ଟିକ</string>
+    <string name="WaterScarcity">"ୱାଟର ଷ୍ଚ୍ରସିଟି "</string>
+    <string name="Other">ଓଥେର</string>
+    <string name="River">ରିବେର</string>
+    <string name="Lake">ଲକେ</string>
+    <string name="Pond">ପଣ୍ଡ</string>
+    <string name="Beach">ବେଞ୍ଚ</string>
+    <string name="Canal">କେନାଲ</string>
+    <string name="Well">ବେଲଲ</string>
+    <string name="Settings">ସେଟଟିଙ୍ଗସ</string>
+    <string name="welcomescreen">"ବେଲକାମେ ତୋ ହୋମେ ଶବରୀନ "</string>
+    <string name="start">"ଗୋଟି ଇଟା "</string>
+    <string name="skip">ସକିପ</string>
+    <string name="next">ନେକ୍ସଟ</string>
+    <string name="pc">ପେଓପ୍ଲେ\'ସଁ କମ୍ପ୍ଲିଣ୍ଟସ</string>
+    <string name="yc">"ୟୌର କମ୍ପ୍ଲିଣ୍ଟସ "</string>
+    <string name="Cancel">କ୍ୟାନ୍ସଲା</string>
+    <string name="SandMining">"ସନ୍ଦ ମିନିଙ୍ଗ "</string>
+    <string name="UnsafeEmbankment">"ଊଂସ୍ଫେ ଏଂବଂକମେଣ୍ଟ "</string>
+    <string name="Ganga">"ଗଙ୍ଗା "</string>
+    <string name="Select">ଚୟନ</string>
+    <string name="Location">ଅବସ୍ଥାନ:</string>
+    <string name="Category">" ବର୍ଗ:"</string>
+    <string name="Thankyou">ଥାଙ୍କ ଯୋଉ!</string>
+    <string name="YourComplaintHasBeenRegistered">"ୟୌର କମ୍ପ୍ଲିଣ୍ତ ହସ ବୀନ ରେଜିସ୍ଟ୍ରେଡ଼ "</string>
+    <string name="ClickHereToSignIn">"ସିଲିକଙ୍କ ହେରେ ତୋ ସିଜିନ୍ରୁ ଇଂ "</string>
+    <string name="DescribeYourComplaint">ଦେଶକରିବେ ୟୌର କମ୍ପ୍ଲିଣ୍ତ</string>
+    <string name="SelectAnyOne">"୨.ସେଲେସତ ଅନ୍ୟ ଅଣେ "</string>
+    <string name="ClickHereToComplaint">"୧.ସିଲିକଙ୍କ ହେରେ ତୋ କମ୍ପ୍ଲିଣ୍ତ "</string>
+    <string name="Support">"ସପୋର୍ଟ "</string>
+    <string name="TotalSupports">ଟୋଟାଲ ସପୋର୍ଟ:</string>
+
+</resources>

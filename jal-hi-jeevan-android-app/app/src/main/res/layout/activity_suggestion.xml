@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tri_flag">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/YourSuggestion"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvSKIP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="@drawable/my_border"/>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photohere"/>
+
+    <Button
+        android:id="@+id/tvSKIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvSUBMIT"
+        android:layout_alignBottom="@+id/tvSUBMIT"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="46dp"
+        android:background="#000080"
+        android:onClick="Skip"
+        android:text="@string/Skip"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/tvSUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="55dp"
+        android:layout_toEndOf="@+id/photohere"
+        android:background="#000080"
+        android:onClick="Submit"
+        android:text="@string/Submit"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

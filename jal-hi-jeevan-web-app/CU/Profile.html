@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Jal Hi Jeevan</title>
+
+<meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+<!-- these js files are used for making PDF -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+  <title>Jal Hi Jeevan</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="Profile.js"></script>
+<link href="Profile.css" rel="stylesheet" type="text/css">
+
+	
+<style>
+
+.button {
+    background-color: #054769;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+	
+  <script>
+  
+   (function (global) { 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+
+        // making sure we have the fruit available for juice (^__^)
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) 
+		{
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+
+
+</script>	
+</head>
+
+<body>
+<div id="container">
+
+
+		<div id="mainpic">
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a id="all" href="#">All Complaints </a></li>
+                <li class="menuitem"><a id="pend" href="#">Pending Complaints</a></li>
+                <li class="menuitem"><a id="rej" href="#">Rejected Complaints</a></li>
+                <li class="menuitem"><a id="adho" href="#">Settings</a></li>
+                <li class="menuitem"><a id="lot" href="C:\Users\Rahul Bhenjalia\Desktop\FWA\Login.html">LogOut</a></li>
+            
+			</ul>
+        </div>
+        
+		<div id="content">
+		
+		<br><br><br>
+
+
+<br><br><br><br>
+	<div id="HTMLtoPDF">
+	
+	<table id="table" class="table"  align="center" border="3">
+    <tr align="center"> 
+        <td colspan="4"><p class="head">Complaint Details
+		<input type="button" class="btn btn-info btn-lg" value="Refresh" onclick="add()">
+        <span class="glyphicon glyphicon-refresh"></span> 
+        </p></td>
+    </tr>
+    <tr align="center"> 
+        <td align="center" colspan="4">
+		<img align="center" alt="hello" id="id" height="400" width="250">
+		</img>
+        </td>
+    </tr>
+    
+	<tr>
+        <td><p class="norm">ComplaintID</p></td>
+        <td>
+		<p id="ComplaintID" class="norm2"></p>
+		</td>
+        <td><p class="norm">Complaint Date</p></td>
+        <td><p id="ComplaintDate" class="norm2"></p></td>
+    </tr>
+    <tr>
+        <td><p class="norm">Water Body Type</p></td>
+        <td><p id="WaterBodyType" class="norm2"></p></td>
+		 <td><p class="norm">Status</p></td>
+        <td><p id="Status" class="norm2"></p></td>
+    </tr>
+	
+	<tr>
+        <td colspan="1"><p class="norm">Category</p></td>
+        <td colspan="3"><p id="Category" class="norm2"></p></td>
+    </tr>
+	
+    <tr>
+        <td colspan="1"><p class="norm">Address</p></td>
+        <td colspan="3"><p id="Address" class="norm2"></p></td>
+    </tr>
+    <tr>
+     
+        <td><p class="norm">City</p></td>
+        <td><p id="City" class="norm2"></p></td>
+        <td><p class="norm">Pin Code</p></td>
+        <td><p id="Pincode" class="norm2"></p></td>
+
+    </tr>
+	
+	<tr>
+        <td colspan="1"><p class="norm">Description</p></td>
+        <td colspan="3"><p id="Description" class="norm2"></p></td>
+    </tr>
+     
+     <tr>
+        <td align="center" colspan="4"><a href="#" id="MapLink"><p class="norm">OPEN LOCATION IN MAPS</p></a></td>
+    </tr>
+    
+	<tr>
+        <td colspan="4"><p class="head">Complaint By User</p></td>
+    </tr>
+    
+	<tr>
+        <td><p class="norm">UserID</p></td>
+        <td><p id="UserID" class="norm2"></p></td>
+        <td><p class="norm">User Name</p></td>
+        <td><p id="Username" class="norm2"></p></td>
+    </tr>
+	
+	<tr>
+        <td><p class="norm">User Email Address</p></td>
+        <td><p id="Email" class="norm2"></p></td>
+        <td><p class="norm">User Contact No</p></td>
+        <td><p id="Phone" class="norm2"></p></td>
+    </tr>
+	
+    <tr>
+        <td colspan="1"><p class="norm">Suggestion Provided By User</p></td>
+        <td colspan="3"><p id="Suggestion" class="norm2"></p></td>
+    </tr>
+   
+</table>
+</div>
+
+<table>
+ <tr>
+        <td colspan="1"><p class="norm">Update Status</p></td>
+        <td colspan="3">
+		
+		<input type="button" class="btn btn-info btn-lg" value="Accept" onclick="statusChangeToAccept()">
+        <input type="button" class="btn btn-info btn-lg" value="Reject" onclick="statusChangeToDelete()">
+      	 <input type="button" class="btn btn-info btn-lg" value="Solved" onclick="statusChangeToSolved()">
+      	
+		</td>
+		
+    </tr>
+	
+	<tr>
+        <td colspan="1"><p class="norm">Export To PDF</p></td>
+        <td colspan="3">
+		
+	  	 <input type="button" class="btn btn-info btn-lg" value="Download PDF" onclick="printtoPDF()">
+      	
+	
+
+        </td>
+		
+    </tr>
+	
+	<tr>
+        <td colspan="1"><p class="norm">Share</p></td>
+        <td colspan="3">
+		
+	       <a id="gmail" target="_blank" href="#" >
+		          <i class="fa fa-google-plus-circle" style="font-size:48px;color:red"></i>
+		   </a>
+           		  &nbsp; &nbsp; &nbsp;
+				   
+		   <a id="yahoo" href="#">
+		   		   <i class="fa fa-yahoo" style="font-size:48px;color:purple"></i>
+		   </a>
+		   &nbsp; &nbsp; &nbsp;
+				
+		<a id="outlook" target="_blank" href="#">
+				   <i class="fa fa-windows" style="font-size:48px;color:#00a1f1"></i>
+		   </a>
+        
+		</td>
+		
+    </tr>
+	
+	
+</table>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+    </div>
+   </div>
+   <script>
+     
+		var queryString = decodeURIComponent(window.location.search);
+    queryString = queryString.substring(1);
+    var keyValues = queryString.split('&'); 
+     
+    var n = keyValues[0].toString();
+	var q = keyValues[1].toString();
+	var s = keyValues[2].toString();
+    var d = keyValues[3].toString();
+    
+	var j = n+"&"+q+"&"+s+"&"+d;
+	var k= j.toString();
+	
+    var a = "All.html?"+k;
+	var e = "Pending.html?"+k;
+	var z = "Rejected.html?"+k;
+	var t = "AdminHome.html?"+k;
+    
+	var f = keyValues[4].toString();
+    
+	
+    document.getElementById('all').href = a;
+    document.getElementById('pend').href = e;
+	document.getElementById('rej').href = z;
+	document.getElementById('adho').href = t;
+	
+	
+	
+	
+   </script>
+</body>
+</html>

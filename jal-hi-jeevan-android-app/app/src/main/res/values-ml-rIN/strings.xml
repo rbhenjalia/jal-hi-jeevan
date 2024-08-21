@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PhoneNumber">ഫോൺ നമ്പർ</string>
+    <string name="Name">പേര്</string>
+    <string name="SelectCategory">ഇനം തിരഞ്ഞെടുക്കുക</string>
+    <string name="Description">വിവരണം:</string>
+    <string name="Suggestion">" നിർദ്ദേശം"</string>
+    <string name="Next">അടുത്തത്</string>
+    <string name="YourSuggestion">നിങ്ങളുടെ നിർദ്ദേശം</string>
+    <string name="FileAComplaint">പരാതി കൊടുക്കുക</string>
+    <string name="Submit">സമർപ്പിക്കുക</string>
+    <string name="Skip">ഒഴിവാക്കുക</string>
+    <string name="ChooseLang">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="WaterBodyType">വാട്ടർ ബോഡി തരം:</string>
+    <string name="EnterOTP">" OTP നൽകുക"</string>
+    <string name="EnterYourPhone">നിങ്ങളുടെ മൊബൈൽ നമ്പർ നൽകുക</string>
+    <string name="Login">" ലോഗിൻ "</string>
+    <string name="Register">" രജിസ്റ്റർ ചെയ്യുക"</string>
+    <string name="Encroachment">അക്രചരണം</string>
+    <string name="Industrial">വ്യാവസായിക</string>
+    <string name="HumanWaste">" ഹ്യൂമൻ വേസ്റ്റ്"</string>
+    <string name="AnimalDeadBodies">മൃഗങ്ങളുടെ മൃതദേഹങ്ങൾ</string>
+    <string name="Sewage">മലിനജലം</string>
+    <string name="Plastic">പ്ലാസ്റ്റിക്</string>
+    <string name="WaterScarcity">ജല ക്ഷാമം</string>
+    <string name="Other">" മറ്റുള്ളവ"</string>
+    <string name="River">നദി</string>
+    <string name="Lake">തടാകം</string>
+    <string name="Pond">പൊയ്ക</string>
+    <string name="Beach">ബീച്ച്</string>
+    <string name="Canal">കനാൽ</string>
+    <string name="Well">" ശരി"</string>
+    <string name="Settings">" ക്രമീകരണങ്ങൾ"</string>
+    <string name="welcomescreen">ഹോം സ്ക്രീനിലേക്ക് സ്വാഗതം</string>
+    <string name="start" translatable="false">മനസ്സിലായി</string>
+    <string name="skip" translatable="false">സ്വീകരിക്കുക</string>
+    <string name="next" translatable="false">അടുത്തത്</string>
+    <string name="pc" translatable="false">ജനങ്ങളുടെ പരാതികൾ</string>
+    <string name="yc" translatable="false">നിങ്ങളുടെ പരാതികൾ</string>
+    <string name="Cancel">റദ്ദാക്കുക</string>
+    <string name="SandMining">മണൽ ഖനനം</string>
+    <string name="UnsafeEmbankment">സുരക്ഷിതമല്ലാത്ത കടൽ</string>
+    <string name="Ganga">"ഗംഗ "</string>
+    <string name="Select">തിരഞ്ഞെടുക്കുക</string>
+    <string name="Location">സ്ഥാനം:</string>
+    <string name="Category">വർഗ്ഗം:</string>
+    <string name="Thankyou">നന്ദി!</string>
+    <string name="YourComplaintHasBeenRegistered">നിങ്ങളുടെ പരാതി രജിസ്റ്റർ ചെയ്തു</string>
+    <string name="ClickHereToSignIn">സൈൻ ഇൻ ചെയ്യുന്നതിന് ഇവിടെ ക്ലിക്കുചെയ്യുക</string>
+    <string name="DescribeYourComplaint">നിങ്ങളുടെ പരാതി വിശദീകരിക്കുക</string>
+    <string name="SelectAnyOne">2.ആരെങ്കിലും തിരഞ്ഞെടുക്കുക</string>
+    <string name="ClickHereToComplaint">1.പരാതിപ്പെടാൻ ഇവിടെ ക്ലിക്കുചെയ്യുക</string>
+    <string name="Support">പിന്തുണ</string>
+    <string name="TotalSupports">ആകെ പിന്തുണ:</string>
+</resources>

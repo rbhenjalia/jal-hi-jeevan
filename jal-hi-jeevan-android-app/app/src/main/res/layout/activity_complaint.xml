@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tri_flag">
+
+    <Spinner
+        android:id="@+id/pspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/pspinner"
+        android:layout_marginStart="22dp"
+        android:text="@string/SelectCategory"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wspinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:text="@string/Description"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/my_border"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/FileAComplaint"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvCategory"
+        android:layout_below="@+id/pspinner"
+        android:layout_marginTop="13dp"
+        android:textStyle="bold"
+        android:text="@string/WaterBodyType"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/wspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/pspinner" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.7"
+        android:text="जल ही जीवन"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/secret1"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/etDescription"
+        android:layout_marginTop="46dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/secret2"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textView"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/toSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:layout_alignStart="@+id/tvDescription"
+        android:layout_below="@+id/etDescription"
+        android:layout_marginTop="34dp"
+        android:text="@string/Next" />
+
+</RelativeLayout>

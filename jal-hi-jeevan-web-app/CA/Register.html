@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Jal Hi Jeevan</title>
+
+<meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+
+  <title>Jal Hi Jeevan</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  
+  <script>
+
+(function (global) { 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+
+        // making sure we have the fruit available for juice (^__^)
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) 
+		{
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+
+
+</script>	
+
+<script src="register.js"></script>
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a id="all" href="#">All Complaints </a></li>
+                <li class="menuitem"><a id="pend" href="#">Pending Complaints</a></li>
+                <li class="menuitem"><a id="rej" href="#">Rejected Complaints</a></li>
+                <li class="menuitem"><a id="adho" href="#">Settings</a></li>
+                <li class="menuitem"><a id="lot" href="C:\Users\Rahul Bhenjalia\Desktop\FWA\Login.html">LogOut</a></li>
+            
+			</ul>
+        </div>
+        
+		<div id="content">
+		<br><br><br>
+<br><br><br><br><br>
+<form>
+<table width="60%" bgcolor="054769" align="center">
+
+<tr>
+<td colspan=2 align="center"><font color="white" size=4><b>New Departmental Administrator Registration</b></font></td>
+</tr>
+
+
+
+<tr>
+<td colspan="2">-------------------------------------------------------------------------------------------</td>
+</tr>
+
+
+<tr>
+<td><font color="white">Enter Name:</font></td>
+<td><input id="name" type="text"  name="pwd"></td>
+</tr>
+
+
+<tr>
+<td colspan="2">-------------------------------------------------------------------------------------------</td>
+</tr>
+
+
+<tr>
+<td><font color="white">Enter Phone Number:</font></td>
+<td><input type="text" id="phone" name="pwd"></td>
+</tr>
+
+
+<tr>
+<td colspan="2">-------------------------------------------------------------------------------------------</td>
+</tr>
+
+<tr>
+<td><font color="white">Select Your Department:</font></td>
+<td> 
+	<select name=slist id="Category">
+		  
+               <option value="Encroachment">Encroachment</option>
+               <option value="Industrial">Industrial</option>
+               <option value="Human Waste">Human Waste</option>
+               <option value="Unsafe Embankment">Unsafe Embankment</option>
+			   <option value="Ganga">Ganga</option>
+			   <option value="Animal Dead Bodies">Animal Dead Bodies</option>
+               <option value="Sewage">Sewage</option>
+               <option value="Plastic">Plastic</option>
+               <option value="Water Scarcity">Water Scarcity</option>
+               <option value="Others">Others</option>
+                   
+	 </select></td>
+</tr>
+
+
+<tr>
+<td colspan="2">-------------------------------------------------------------------------------------------</td>
+</tr>
+
+
+<tr>
+<td><font color="white">Select State:</font></td>
+<td><font color="white"><p id="state"></p></font></td>
+</tr>
+
+
+
+<tr>
+<td colspan="2">-------------------------------------------------------------------------------------------</td>
+</tr>
+
+
+<tr>
+<td colspan="2" align="center"><input type="button"  colspan="2" onclick="add()" value="Create User"/></td>
+</tr>
+
+</table>
+</form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+    </div>
+   </div>
+   <script>
+     
+	var queryString = decodeURIComponent(window.location.search);
+    queryString = queryString.substring(1);
+    var keyValues = queryString.split('&'); 
+     
+    var n = keyValues[0].toString();
+	var q = keyValues[1].toString();
+	var s = keyValues[2].toString();
+    
+	
+	var j = n+"&"+q+"&"+s;
+	var k= j.toString();
+
+	document.getElementById("state").innerText = s;
+	
+    var a = "All.html?"+k;
+	var e = "Pending.html?"+k;
+	var z = "Rejected.html?"+k;
+	var t = "AdminHome.html?"+k;
+	var u = "Register.html?"+k;
+	
+	
+    document.getElementById('all').href = a;
+    document.getElementById('pend').href = e;
+	document.getElementById('rej').href = z;
+	document.getElementById('adho').href = t;
+	
+	
+   </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PhoneNumber">ફોન નંબર</string>
+    <string name="Name">નામ</string>
+    <string name="SelectCategory">કેટેગરી પસંદ કરો</string>
+    <string name="Description">વર્ણન</string>
+    <string name="Suggestion">સૂચન</string>
+    <string name="Next">" આગળ"</string>
+    <string name="YourSuggestion">તમારા સૂચન</string>
+    <string name="FileAComplaint">ફરિયાદ ફાઇલ કરો</string>
+    <string name="Submit">સમર્પિત કરવું</string>
+    <string name="Skip">" છોડો"</string>
+    <string name="ChooseLang">" ભાષા પસંદ કરો"</string>
+    <string name="WaterBodyType">" પાણી શારીરિક પ્રકાર"</string>
+    <string name="EnterOTP">OTP દાખલ કરો</string>
+    <string name="EnterYourPhone">" તમારો મોબાઇલ નંબર દાખલ કરો"</string>
+    <string name="Login">" લૉગિન "</string>
+    <string name="Register">નોંધણી કરો</string>
+    <string name="Encroachment">અતિક્રમણ</string>
+    <string name="Industrial">" ઔદ્યોગિક"</string>
+    <string name="HumanWaste">" માનવ વેસ્ટ"</string>
+    <string name="AnimalDeadBodies">એનિમલ ડેડ બોડીઝ</string>
+    <string name="Sewage">" સેવેજ"</string>
+    <string name="Plastic">" પ્લાસ્ટિક"</string>
+    <string name="WaterScarcity">પાણીની અછત</string>
+    <string name="Other">" અન્ય"</string>
+    <string name="River">નદી</string>
+    <string name="Lake">" તળાવ"</string>
+    <string name="Pond">તળાવ</string>
+    <string name="Beach">" બીચ"</string>
+    <string name="Canal">નહેર</string>
+    <string name="Well">વેલ</string>
+    <string name="Settings">સેટિંગ્સ</string>
+</resources>

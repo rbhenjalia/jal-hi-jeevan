@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Complaint ID:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvComplaintID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="22sp"/>
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/ivImage"
+        android:layout_marginTop="31dp"
+        android:text="@string/Location"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignStart="@+id/tvComplaintID"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="22dp"
+        android:text="@string/WaterBodyType"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvWaterBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignStart="@+id/tvLocation"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="19dp"
+        android:text="@string/Category"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView24"
+        android:layout_alignStart="@+id/tvDescription"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="23dp"
+        android:text="@string/Description"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvLocation"
+        android:layout_alignTop="@+id/textView24"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tv25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SupportBut"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginBottom="11dp"
+        android:text="@string/TotalSupports"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSuppNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvLocation"
+        android:layout_alignTop="@+id/tv25"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="22sp"/>
+    <Button
+        android:id="@+id/SupportBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="43dp"
+        android:text="@string/Support"
+        android:background="#000080"
+        android:textColor="#ffffff" />
+</RelativeLayout>

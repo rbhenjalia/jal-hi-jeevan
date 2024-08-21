@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PhoneNumber">फ़ोन नंबर</string>
+    <string name="Name">नाम</string>
+    <string name="SelectCategory">श्रेणी का चयन करें</string>
+    <string name="Description">" विवरण"</string>
+    <string name="Suggestion">सुझाव</string>
+    <string name="Next">अगला</string>
+    <string name="YourSuggestion">आपका सुझाव</string>
+    <string name="FileAComplaint">एक शिकायत दर्ज करे</string>
+    <string name="Submit">जमा करें</string>
+    <string name="Skip">छोड़ें</string>
+    <string name="ChooseLang">" भाषा चुनें"</string>
+    <string name="WaterBodyType">" जल शरीर का प्रकार"</string>
+    <string name="EnterOTP">ओटीपी दर्ज करें</string>
+    <string name="EnterYourPhone">" अपना मोबाइल नंबर दर्ज करें"</string>
+    <string name="Login">" लॉग इन करें "</string>
+    <string name="Register">रजिस्टर</string>
+    <string name="Encroachment">" अतिक्रमण"</string>
+    <string name="Industrial">" औद्योगिक"</string>
+    <string name="HumanWaste">" मानव अपशिष्ट"</string>
+    <string name="AnimalDeadBodies">" पशु मृत निकायों"</string>
+    <string name="Sewage">मल</string>
+    <string name="Plastic">प्लास्टिक</string>
+    <string name="WaterScarcity">पानी की कमी</string>
+    <string name="Other">" अन्य"</string>
+    <string name="River">नदी</string>
+    <string name="Lake">झील</string>
+    <string name="Pond">" तालाब"</string>
+    <string name="Beach">समुद्र तट</string>
+    <string name="Canal">" नहर"</string>
+    <string name="Well">" कुंआ"</string>
+    <string name="Settings">सेटिंग्स</string>
+    <string name="welcomescreen">होम स्क्रीन पर आपका स्वागत है</string>
+    <string name="start" translatable="false">समझ गया</string>
+    <string name="skip" translatable="false">छोड़ें</string>
+    <string name="next" translatable="false">आगामी</string>
+    <string name="pc" translatable="false">लोगों की शिकायतें</string>
+    <string name="yc" translatable="false">आपकी शिकायतें</string>
+    <string name="Cancel">रद्द करना</string>
+    <string name="SandMining">रेत खनन</string>
+    <string name="UnsafeEmbankment">असुरक्षित तटबंध</string>
+    <string name="Ganga">"गंगा "</string>
+</resources>

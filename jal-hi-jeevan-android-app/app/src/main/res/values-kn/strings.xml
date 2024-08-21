@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Name">ಹೆಸರು</string>
+    <string name="PhoneNumber">" ದೂರವಾಣಿ ಸಂಖ್ಯೆ"</string>
+    <string name="SelectCategory">ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="Description">ವಿವರಣೆ:</string>
+    <string name="Suggestion">ಸಲಹೆ</string>
+    <string name="Next">" ಮುಂದೆ"</string>
+    <string name="YourSuggestion">ನಿಮ್ಮ ಸಲಹೆ</string>
+    <string name="FileAComplaint">ಫೈಲ್ ದೂರು</string>
+    <string name="Submit">" ಸಲ್ಲಿಸಲು"</string>
+    <string name="Skip">ಬಿಟ್ಟುಬಿಡಿ</string>
+    <string name="ChooseLang">" ಭಾಷೆಯನ್ನು ಆರಿಸಿ"</string>
+    <string name="WaterBodyType">" ವಾಟರ್ ದೇಹ ಪ್ರಕಾರ:"</string>
+    <string name="EnterOTP">" OTP ಯನ್ನು ನಮೂದಿಸಿ"</string>
+    <string name="EnterYourPhone">" ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"</string>
+    <string name="Login">" ಲಾಗಿನ್ ಮಾಡಿ "</string>
+    <string name="Register">" ನೋಂದಣಿ"</string>
+    <string name="Encroachment">ಎನ್ಕ್ರಾಚ್ಮೆಂಟ್</string>
+    <string name="Industrial">ಕೈಗಾರಿಕಾ</string>
+    <string name="HumanWaste">ಮಾನವ ತ್ಯಾಜ್ಯ</string>
+    <string name="AnimalDeadBodies">" ಅನಿಮಲ್ ಡೆಡ್ ಬಾಡೀಸ್"</string>
+    <string name="Sewage">" ಚರಂಡಿ"</string>
+    <string name="Plastic">ಪ್ಲಾಸ್ಟಿಕ್</string>
+    <string name="WaterScarcity">" ನೀರಿನ ಕೊರತೆ"</string>
+    <string name="Other">ಇತರೆ</string>
+    <string name="River">ನದಿ</string>
+    <string name="Lake">ಲೇಕ್</string>
+    <string name="Pond">" ಕೊಳ"</string>
+    <string name="Beach">ಬೀಚ್</string>
+    <string name="Canal">ಕೆನಾಲ್</string>
+    <string name="Well">ಸರಿ</string>
+    <string name="Settings">ಸೆಟ್ಟಿಂಗ್ಗಳು</string>
+    <string name="welcomescreen">ಹೋಮ್ ಸ್ಕ್ರೀನ್ಗೆ ಸ್ವಾಗತ</string>
+    <string name="start" translatable="false">ಅರ್ಥವಾಯಿತು</string>
+    <string name="skip" translatable="false">ತೆರಳಿ</string>
+    <string name="next" translatable="false">ಮುಂದೆ</string>
+    <string name="pc" translatable="false">ಜನರ ದೂರುಗಳು</string>
+    <string name="yc" translatable="false">ನಿಮ್ಮ ದೂರುಗಳು</string>
+    <string name="Cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="SandMining">ಮರಳು ಗಣಿಗಾರಿಕೆ</string>
+    <string name="UnsafeEmbankment">ಅಸುರಕ್ಷಿತ ಅಣೆಕಟ್ಟು</string>
+    <string name="Ganga">"ಗಂಗಾ "</string>
+    <string name="Select">ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="Location">ಸ್ಥಳ:</string>
+    <string name="Category">ವರ್ಗ:</string>
+    <string name="Thankyou">ಧನ್ಯವಾದ!</string>
+    <string name="YourComplaintHasBeenRegistered">ನಿಮ್ಮ ದೂರು ದಾಖಲಿಸಲಾಗಿದೆ</string>
+    <string name="ClickHereToSignIn">ಸೈನ್ ಇನ್ ಮಾಡಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="DescribeYourComplaint">ನಿಮ್ಮ ದೂರುಗಳನ್ನು ವಿವರಿಸಿ</string>
+    <string name="SelectAnyOne">2.ಎಲ್ಲಾ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="ClickHereToComplaint">1. ದೂರು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="Support">ಬೆಂಬಲ</string>
+    <string name="TotalSupports">ಒಟ್ಟು ಬೆಂಬಲಿಸುತ್ತದೆ:</string>
+</resources>

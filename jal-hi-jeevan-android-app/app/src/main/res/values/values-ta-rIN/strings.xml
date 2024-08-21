@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Name">" பெயர்"</string>
+    <string name="PhoneNumber">" தொலைபேசி எண்"</string>
+    <string name="SelectCategory">" பிரிவை தேர்வு செய்க"</string>
+    <string name="Description">" விளக்கம்"</string>
+    <string name="Suggestion">பரிந்துரை</string>
+    <string name="Next">" அடுத்த"</string>
+    <string name="YourSuggestion">" உங்கள் பரிந்துரை"</string>
+    <string name="FileAComplaint">புகார் பதிவு செய்</string>
+    <string name="Submit">சமர்ப்பி</string>
+    <string name="Skip">" செல்க"</string>
+    <string name="ChooseLang">மொழியைத் தேர்வு செய்க</string>
+    <string name="WaterBodyType">" நீர் உடல் வகை"</string>
+    <string name="EnterOTP">" OTP ஐ உள்ளிடவும்"</string>
+    <string name="EnterYourPhone">" உங்களுடைய கைபேசி எண்ணை உள்ளிடவும்"</string>
+    <string name="Login">" உள் நுழை "</string>
+    <string name="Register">" பதிவு"</string>
+    <string name="Encroachment">அத்துமீறல்</string>
+    <string name="Industrial">தொழிற்சாலை</string>
+    <string name="HumanWaste">" மனித கழிவு"</string>
+    <string name="AnimalDeadBodies">விலங்கு இறந்த உடல்கள்</string>
+    <string name="Sewage">கழிவுநீர்</string>
+    <string name="Plastic">பிளாஸ்டிக்</string>
+    <string name="WaterScarcity">தண்ணீர் பற்றாக்குறை</string>
+    <string name="Other">" மற்ற"</string>
+    <string name="River">நதி</string>
+    <string name="Lake">ஏரி</string>
+    <string name="Pond">பாண்ட்ஸ்</string>
+    <string name="Beach">கடற்கரை</string>
+    <string name="Canal">கால்வாய்</string>
+    <string name="Well">" சரி"</string>
+    <string name="Settings">" அமைப்புகள்"</string>
+</resources>

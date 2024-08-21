@@ -1,0 +1,30 @@
+
+.norm2 {
+  font: normal normal bold 12px/1 "Courier New", Courier, monospace;
+}
+
+.norm 
+{
+  font: normal normal bold 12px/1 Tahoma, Geneva, sans-serif;
+}
+.head 
+{
+  
+  font: normal normal bold 20px/1 "Times New Roman", Times, serif;
+  
+}
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 5px;
+	border:solid 1px #fab;
+	
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Jal Hi Jeevan</title>
+<style>
+
+.button {
+    background-color: #054769;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+
+  <title>Jal Hi Jeevan</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  
+  <script>
+
+(function (global) { 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+
+        // making sure we have the fruit available for juice (^__^)
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) 
+		{
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+
+
+</script>	
+
+<script src="Edit.js"></script>
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a id="all" href="#">All Complaints </a></li>
+                <li class="menuitem"><a id="pend" href="#">Pending Complaints</a></li>
+                <li class="menuitem"><a id="rej" href="#">Rejected Complaints</a></li>
+                <li class="menuitem"><a id="adho" href="#">Settings</a></li>
+                <li class="menuitem"><a id="lot" href="C:\Users\Rahul Bhenjalia\Desktop\FWA\Login.html">LogOut</a></li>
+            
+			</ul>
+        </div>
+        
+		<div id="content">
+		<br><br><br>
+<br><br><br><br><br>
+
+<input type="button"  onclick="loadUsers()" value="Load Users"/>
+<br><br><br><br>
+<table id="table" align="center">
+
+      <tr>
+        <th>AdminID</th>
+		<th>Admin Name</th>
+        <th>Department</th>
+        <th>Delete</th>
+      </tr>
+
+
+
+    </table>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+    </div>
+   </div>
+   <script>
+     
+	var queryString = decodeURIComponent(window.location.search);
+    queryString = queryString.substring(1);
+    var keyValues = queryString.split('&'); 
+     
+    var n = keyValues[0].toString();
+	var q = keyValues[1].toString();
+	var s = keyValues[2].toString();
+    
+	
+	var j = n+"&"+q+"&"+s;
+	var k= j.toString();
+
+    var a = "All.html?"+k;
+	var e = "Pending.html?"+k;
+	var z = "Rejected.html?"+k;
+	var t = "AdminHome.html?"+k;
+	var u = "Register.html?"+k;
+	
+	
+    document.getElementById('all').href = a;
+    document.getElementById('pend').href = e;
+	document.getElementById('rej').href = z;
+	document.getElementById('adho').href = t;
+	
+	
+   </script>
+</body>
+</html>

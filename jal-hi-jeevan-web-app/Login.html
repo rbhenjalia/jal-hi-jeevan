@@ -1,0 +1,107 @@
++++<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Jal Hi Jeevan</title>
+
+<meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+
+  <title>Jal Hi Jeevan</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="login.js"></script>
+  <script>
+
+(function (global) 
+
+{ 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+
+        // making sure we have the fruit available for juice (^__^)
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) Ḍ
+		{
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+</script>	
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a href="Home.html">Home</a></li>
+                <li class="menuitem"><a href="Login.html">Login</a></li>
+            
+            </ul>
+        </div>
+        
+		<div id="content">
+		<br><br><br>
+      <form>
+<table width="20%" bgcolor="061C37" align="center">
+
+<tr>
+<td colspan=2><center><font color="white" size=4><b>Administrator Login</b></font></center></td>
+</tr>
+
+<tr>
+<td><font color="white">Username:</font></td>
+<td><input type="text" id="userid" name="userid"></td>
+</tr>
+
+<tr>
+<td><font color="white">Password:</font></td>
+<td><input type="Password" id="pass" name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="button" onclick="verifyLogin()" value="Login"></td>
+</tr>
+
+</table>
+<form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+    </div>
+   </div>
+</body>
+</html>

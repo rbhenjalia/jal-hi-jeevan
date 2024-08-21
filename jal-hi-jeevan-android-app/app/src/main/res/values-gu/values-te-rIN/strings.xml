@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Name">పేరు</string>
+    <string name="PhoneNumber">ఫోను నంబరు</string>
+    <string name="SelectCategory">వర్గం ఎంచుకోండి</string>
+    <string name="Description">వివరణ</string>
+    <string name="Suggestion">సూచన</string>
+    <string name="Next">తరువాత</string>
+    <string name="YourSuggestion">మీ సలహా</string>
+    <string name="FileAComplaint">ఒక ఫిర్యాదు దాఖలు చేయండి</string>
+    <string name="Submit">సమర్పించండి</string>
+    <string name="Skip">దాటవేయి</string>
+    <string name="ChooseLang">భాషను ఎంచుకోండి</string>
+    <string name="WaterBodyType">నీటి శరీర పద్ధతి</string>
+    <string name="EnterOTP">OTP ను ఎంటర్ చెయ్యండి</string>
+    <string name="EnterYourPhone">మీ మొబైల్ నెంబర్ ను ఎంటర్ చేయండి</string>
+    <string name="Login">లాగిన్</string>
+    <string name="Register">నమోదు</string>
+    <string name="Encroachment">ఆక్రమణ</string>
+    <string name="Industrial">పారిశ్రామిక</string>
+    <string name="HumanWaste">మానవ వేస్ట్</string>
+    <string name="AnimalDeadBodies">యానిమల్ డెడ్ బాడీస్</string>
+    <string name="Sewage">మురుగు</string>
+    <string name="Plastic">ప్లాస్టిక్</string>
+    <string name="WaterScarcity">జల సంక్షోభం</string>
+    <string name="Other">ఇతర</string>
+    <string name="River">నది</string>
+    <string name="Lake">లేక్</string>
+    <string name="Pond">చెరువు</string>
+    <string name="Beach">బీచ్</string>
+    <string name="Canal">కెనాల్</string>
+    <string name="Well">బాగా</string>
+    <string name="Settings">సెట్టింగులు</string>
+    <string name="start" translatable="false">దొరికింది</string>
+    <string name="welcomescreen" translatable="false">హోమ్ స్క్రీన్ కు స్వాగతం</string>
+    <string name="skip" translatable="false">స్కిప్</string>
+    <string name="next" translatable="false">తరువాత</string>
+    <string name="pc" translatable="false">పీపుల్స్ ఫిర్యాదులు</string>
+    <string name="yc" translatable="false">మీ ఫిర్యాదులు</string>
+    <string name="Cancel">రద్దు</string>
+    <string name="SandMining">ఇసుక మైనింగ్</string>
+    <string name="UnsafeEmbankment">అసురక్షిత కట్ట</string>
+    <string name="Ganga">"గంగా "</string>
+</resources>
